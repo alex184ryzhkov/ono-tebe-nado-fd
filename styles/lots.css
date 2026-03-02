@@ -1,5 +1,12 @@
 .lots {
+  margin-top: 180px;
+  margin-left: 24px;
 }
 
 .lots__title {
+  font-family: "Raleway-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: black;
 }
