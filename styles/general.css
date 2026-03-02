@@ -1,0 +1,39 @@
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bet-button {
+  color: white;
+  background-color: transparent;
+  width: 258px;
+  height: 51px;
+  border: 1px solid white;
+}
+
+.bet-button span {
+  font-size: 22px;
+  font-family: "Raleway-Medium", sans-serif;
+  text-transform: uppercase;
+}
+.aligned-text_left {
+  text-align: start;
+}
+.aligned-text_right {
+  text-align: end;
+}
+.aligned-text_center {
+  text-align: center;
+}
+.aligned-text {
+  display: block;
+}

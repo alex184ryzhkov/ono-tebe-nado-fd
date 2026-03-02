@@ -39,7 +39,3 @@
   max-width: 240px;
   justify-self: end;
 }
-.address {
-  display: flex;
-  flex-direction: column;
-}
