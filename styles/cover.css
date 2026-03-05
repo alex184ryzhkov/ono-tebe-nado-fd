@@ -17,9 +17,9 @@
   font-weight: 700;
   letter-spacing: 30px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr) 2.2fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  gap: 20px;
   padding: 0;
   position: relative;
   font-family: "Raleway-Bold", sans-serif;
