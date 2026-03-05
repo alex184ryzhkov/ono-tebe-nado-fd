@@ -13,6 +13,7 @@
   text-transform: uppercase;
   color: black;
   margin-bottom: 20px;
+  padding-left: 40px;
 }
 
 .lots__card-list {
@@ -26,7 +27,7 @@
 }
 
 .lots__card-list-item {
-  flex: 1 1 300px;
+  /*flex: 1 1 300px;*/
   max-width: 334px;
   min-height: 596px;
 }
@@ -40,6 +41,12 @@
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.card__title,
+.card__text {
+  position: relative;
+  z-index: 1;
 }
 
 .card_type_film {
@@ -58,28 +65,26 @@
   font-family: "Raleway-Bold", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  letter-spacing: 0;
   line-height: 26px;
   text-transform: uppercase;
-  color: white;
   text-decoration: underline;
-  margin-bottom: 20px;
-  position: relative;
-  z-index: 1;
+  text-decoration-skip-ink: none;
+  color: white;
+  letter-spacing: 0;
 }
 
 .card__text {
   font-family: "Raleway-Regular", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   letter-spacing: 0;
   line-height: 24px;
-  position: relative;
   color: white;
-  z-index: 1;
 }
 .lots__look-more-link {
   margin: auto 0 0 39px;
   text-transform: lowercase;
   text-decoration: underline;
   font-size: 20px;
+  font-weight: 400;
 }
