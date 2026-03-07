@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 40px 30px;
+  padding: 48px 40px;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -62,23 +62,21 @@
 }
 
 .card__title {
-  font-family: "Raleway-Bold", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 120%;
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: white;
-  letter-spacing: 0;
+  /*letter-spacing: 0;*/
 }
 
 .card__text {
-  font-family: "Raleway-Regular", sans-serif;
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 120%;
   color: white;
 }
 .lots__look-more-link {

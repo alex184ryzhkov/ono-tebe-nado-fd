@@ -1,0 +1,48 @@
+.about {
+  margin-top: 180px; /* такой же отступ, как у lots */
+  margin-left: 24px; /* для выравнивания с lots */
+  margin-right: 24px;
+}
+.about__column {
+  display: grid;
+  grid-template-columns: 334px 1fr; /* левая колонка = ширина карточки */
+  gap: 40px;
+}
+.about__logo {
+  width: 240px; /* фиксированный размер круга */
+  height: 240px;
+  background-color: #000; /* чёрный фон */
+  border-radius: 50%; /* круглая форма */
+  display: flex;
+  align-items: center; /* центрирование по вертикали */
+  justify-content: center; /* центрирование по горизонтали */
+  margin: 0 auto;
+}
+.about__logo-image {
+  width: 60%; /* подберите размер, чтобы логотип хорошо смотрелся */
+  height: auto;
+}
+.about__info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* отступ между заголовком и первым параграфом */
+}
+
+.about__title {
+  font-family: "Raleway-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* отступ между параграфами (адаптируется при изменении количества) */
+  font-family: "Raleway-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000;
+}
