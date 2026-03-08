@@ -1,48 +1,49 @@
 .about {
-  margin-top: 180px; /* такой же отступ, как у lots */
-  margin-left: 24px; /* для выравнивания с lots */
+  margin-top: 120px;
+  margin-left: 24px;
   margin-right: 24px;
+  min-height: 595px;
 }
 .about__column {
   display: grid;
-  grid-template-columns: 334px 1fr; /* левая колонка = ширина карточки */
-  gap: 40px;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
 }
 .about__logo {
-  width: 240px; /* фиксированный размер круга */
+  width: 240px;
   height: 240px;
-  background-color: #000; /* чёрный фон */
-  border-radius: 50%; /* круглая форма */
+  background-color: #000;
+  border-radius: 50%;
   display: flex;
-  align-items: center; /* центрирование по вертикали */
-  justify-content: center; /* центрирование по горизонтали */
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 35px auto auto 47px;
 }
 .about__logo-image {
-  width: 60%; /* подберите размер, чтобы логотип хорошо смотрелся */
+  width: 60%;
   height: auto;
 }
 .about__info {
   display: flex;
   flex-direction: column;
-  gap: 24px; /* отступ между заголовком и первым параграфом */
+  gap: 100px;
+  padding-top: 133px;
 }
 
 .about__title {
-  font-family: "Raleway-Bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
   color: #000;
   margin: 0;
+  padding: 0;
 }
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 24px; /* отступ между параграфами (адаптируется при изменении количества) */
-  font-family: "Raleway-Regular", sans-serif;
+  gap: 24px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 120%;
   color: #000;
 }
