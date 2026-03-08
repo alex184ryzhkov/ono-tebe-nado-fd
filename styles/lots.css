@@ -7,7 +7,6 @@
 }
 
 .lots__title {
-  font-family: "Raleway-Bold", sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -27,7 +26,6 @@
 }
 
 .lots__card-list-item {
-  /*flex: 1 1 300px;*/
   max-width: 334px;
   min-height: 596px;
 }
@@ -69,7 +67,6 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: white;
-  /*letter-spacing: 0;*/
 }
 
 .card__text {

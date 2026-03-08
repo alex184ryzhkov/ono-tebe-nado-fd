@@ -1,10 +1,9 @@
 .address {
   display: flex;
   flex-direction: column;
-  font-family: "Raleway-Regular", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 24px;
   font-style: normal;
   letter-spacing: 0;
 }
@@ -28,7 +27,6 @@
 
 .bet-button span {
   font-size: 22px;
-  font-family: "Raleway-Medium", sans-serif;
   text-transform: uppercase;
 }
 .aligned-text_left {
