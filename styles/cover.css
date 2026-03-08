@@ -15,7 +15,7 @@
   color: white;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 30%;
+  letter-spacing: 0.3em;
   line-height: 115%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -32,12 +32,14 @@
 .cover__title span:nth-child(2) {
   grid-column: 2;
   grid-row: 2;
+  letter-spacing: 24px;
 }
 
 .cover__title span:nth-child(3) {
   grid-column: 3;
   grid-row: 3;
-  margin-left: -104px;
+  margin-left: -102px;
+  letter-spacing: 28px;
 }
 
 .cover__description {
@@ -55,7 +57,7 @@
   font-weight: 400;
   line-height: 127%;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
   font-size: 22px;
   white-space: nowrap;
 }

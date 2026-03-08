@@ -7,7 +7,7 @@
 .about__column {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 10px;
+  gap: 15px;
 }
 .about__logo {
   width: 240px;
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   gap: 100px;
-  padding-top: 133px;
+  padding-top: 136px;
 }
 
 .about__title {
@@ -46,4 +46,5 @@
   font-size: 20px;
   line-height: 120%;
   color: #000;
+  letter-spacing: 0.34px;
 }

@@ -5,38 +5,43 @@
   padding: 0 50px;
   height: 293px;
 }
+
 .header__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-items: center;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
-  word-spacing: 10px;
 }
+
 .header__links-list {
   display: flex;
   gap: 25px;
 }
+
 .header__links-list-item {
   list-style: circle;
+  margin-left: 10px;
+  text-decoration: underline;
 }
-.header__links-list-item_no-bullit a {
-  text-decoration: none;
-}
+
 .header__links-list-item_no-bullit {
   list-style: none;
+  text-decoration: none;
 }
+
 .header__logo {
   display: block;
 }
+
 .header__logo-image {
   width: 148px;
   height: 105px;
 }
+
 .header__address {
   max-width: 240px;
-  justify-self: self-end;
+  justify-self: end;
 }
