@@ -8,7 +8,6 @@
 
 .header__menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   font-weight: 400;
   font-size: 18px;
@@ -19,16 +18,28 @@
 .header__links-list {
   display: flex;
   gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header__links-list-item {
   list-style: circle;
   margin-left: 10px;
-  text-decoration: underline;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
+
+.header__link {
+  font-size: 18px;
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.header__link_active {
   text-decoration: none;
 }
 

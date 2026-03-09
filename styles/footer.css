@@ -3,14 +3,12 @@
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
   gap: 40px;
-  padding: 0 50px;
+  padding: 0 50px 82px 50px;
   background-color: #fff;
 }
 
 .footer__address {
-  color: #000;
   text-decoration: none;
-  font-size: 18px;
 }
 
 .footer__address a {

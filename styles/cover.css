@@ -1,12 +1,12 @@
 .cover {
   position: relative;
-  max-height: 757px;
+  min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 207px 50px;
+  padding: 165px 50px 50px 50px;
   justify-content: space-between;
 }
 
@@ -32,14 +32,14 @@
 .cover__title span:nth-child(2) {
   grid-column: 2;
   grid-row: 2;
-  letter-spacing: 24px;
+  letter-spacing: 28px;
 }
 
 .cover__title span:nth-child(3) {
   grid-column: 3;
   grid-row: 3;
-  margin-left: -102px;
-  letter-spacing: 28px;
+  margin-left: -103px;
+  letter-spacing: 32px;
 }
 
 .cover__description {
@@ -47,17 +47,17 @@
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: 107px;
+  gap: 106px;
   width: 100%;
   color: white;
-  padding-top: 106px;
+  padding-top: 110px;
 }
 
 .cover__description-text {
   font-weight: 400;
   line-height: 127%;
   text-transform: uppercase;
-  word-spacing: 18px;
+  word-spacing: 19px;
   font-size: 22px;
   white-space: nowrap;
 }
